@@ -31,7 +31,7 @@ const Picture = ({ id, url }: IProps) => {
             onMouseLeave={handleMouseLeave}
             onClick={handleClick}>
             <img 
-                className={isOver ? 'bigger': ''} 
+                className={isOver ? 'picture--bigger': 'picture--regular'} 
                 src={url} />
         </div>
     )
