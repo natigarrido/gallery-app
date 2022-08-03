@@ -1,6 +1,24 @@
 
-img {
-    width: 510px;
-    height: 697px;
-    border: 1px solid rgb(194, 193, 193);
+.details {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+
+    &-img-container {
+        padding: 50px;
+        background-color: white;
+        border-radius: 4px;
+    }
+
+    
+    &--img {
+        width: 510px;
+        height: 697px;
+        border: 1px solid rgb(194, 193, 193);
+        border-radius: 4px;
+    }
+
+    &--title {
+        font-size: 30px;
+    }
 }
